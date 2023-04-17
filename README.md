@@ -1,56 +1,77 @@
 # Electricsilence.github.io
-website
-
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+  <title>My Website</title>
+  <style>
+    /* Add your custom CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
 
-        body {
-            background: url("background.jpg") no-repeat center center fixed;
-            background-size: cover;
-            font-family: Arial, sans-serif;
-        }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
 
-        .container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-        }
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #333;
+      color: white;
+      padding: 10px;
+    }
 
-        .logo {
-            width: 200px;
-            height: 200px;
-        }
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+    }
 
-        .title {
-            font-size: 48px;
-            color: white;
-            text-shadow: 2px 2px 4px black;
-        }
+    .navbar a:hover {
+      background-color: #555;
+    }
 
-        .message {
-            font-size: 24px;
-            color: white;
-            text-shadow: 1px 1px 2px black;
-        }
-    </style>
-    <title>Coming Soon</title>
+    .active {
+      background-color: #4caf50;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .music-player {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .music-player audio {
+      width: 300px;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <img src="logo.png" alt="Logo" class="logo">
-        <h1 class="title">Coming Soon</h1>
-        <p class="message">We are working hard to launch our website. Stay tuned!</p>
+  <div class="container">
+    <div class="navbar">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="coming-soon.html">Coming Soon</a>
     </div>
+    <div class="content">
+      <h1>Welcome to my website!</h1>
+      <p>This is the home page of my website. Here you can find some information about me and my interests.</p>
+      <div class="music-player">
+        <p>Listen to some of my favorite songs:</p>
+        <audio controls>
+          <source src="song.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
