@@ -62,9 +62,9 @@
     </div>
     <div class="content">
       <h1>Welcome to my website!</h1>
-      <p>This is the home page of my website. Here you can find some information about me and my interests.</p>
+      <p>This is the home page of my website.</p>
       <div class="music-player">
-        <p>Listen to some of my favorite songs:</p>
+        <p>music test:</p>
         <audio controls>
           <source src="Awesome.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
@@ -73,6 +73,6 @@
     </div>
   </div>
 <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-<a href="https://logwork.com/countdown-timer" class="countdown-timer" data-timezone="Australia/Adelaide" data-textcolor="#141414" data-date="2025-04-15 14:00" data-background="#333333" data-digitscolor="#cccccc" data-unitscolor="#000000">Countdown Timer</a>
+<a href="https://logwork.com/countdown-timer" class="countdown-timer" data-timezone="Australia/Adelaide" data-textcolor="#141414" data-date="2025-04-5 14:00" data-background="#333333" data-digitscolor="#cccccc" data-unitscolor="#000000">Countdown Timer</a>
 </body>
 </html>
